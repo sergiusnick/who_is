@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>700</width>
+    <height>370</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Whois</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushStart">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>140</y>
+      <width>216</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(38, 0, 61);
+font: 75 12pt &quot;Levenim MT&quot;;
+background-color: rgb(234, 245, 237);
+border-radius: 2px;
+border: 2px solid #26003d;
+box-shadow: 4px 4px 4px rgba(8, 8, 8, 0.5)}
+QPushButton:hover {background-color: rgba(200, 229, 225, 0.7); 
+border: 2px solid #26003d;
+</string>
+    </property>
+    <property name="text">
+     <string>Analyze</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushAddPerson">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>190</y>
+      <width>216</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(38, 0, 61);
+font: 75 12pt &quot;Levenim MT&quot;;
+background-color: rgb(234, 245, 237);
+border-radius: 2px;
+border: 2px solid #26003d;
+box-shadow: 4px 4px 4px rgba(8, 8, 8, 0.5)}
+QPushButton:hover {background-color: rgba(200, 229, 225, 0.7); 
+border: 2px solid #26003d;
+</string>
+    </property>
+    <property name="text">
+     <string>Add personality</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushAbout">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>240</y>
+      <width>216</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(38, 0, 61);
+font: 75 12pt &quot;Levenim MT&quot;;
+background-color: rgb(234, 245, 237);
+border-radius: 2px;
+border: 2px solid #26003d;
+box-shadow: 4px 4px 4px rgba(8, 8, 8, 0.5)}
+QPushButton:hover {background-color: rgba(200, 229, 225, 0.7); 
+border: 2px solid #26003d;
+</string>
+    </property>
+    <property name="text">
+     <string>About the program</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushExit">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>300</y>
+      <width>216</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(38, 0, 61);
+font: 75 12pt &quot;Levenim MT&quot;;
+background-color: rgb(234, 245, 237);
+border-radius: 2px;
+border: 2px solid #26003d;
+box-shadow: 4px 4px 4px rgba(8, 8, 8, 0.5)}
+QPushButton:hover {background-color: rgba(200, 229, 225, 0.7); 
+border: 2px solid #26003d;
+</string>
+    </property>
+    <property name="text">
+     <string>Exit</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>700</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
