@@ -13,7 +13,7 @@ i = -1
 # read each image in the faces folder
 for root, dirs, files in os.walk(path_data):
     i = i + 1
-    # for the recognizer we need an array of images and corresponding labels
+    # for the recognizer we need an array of images_for_GUI and corresponding labels
     for name in files:
         faces.append(cv2.imread(root + '/' + name, cv2.IMREAD_GRAYSCALE))
         labels.append(i)

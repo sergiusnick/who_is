@@ -17,7 +17,7 @@ class MainMenu(QMainWindow):
         set_background(self)
 
         # Загрузка GUI
-        uic.loadUi('MainMenu.ui', self)
+        uic.loadUi('GUI/MainMenu.ui', self)
 
         self.pushExit.clicked.connect(self.close)
         self.pushStart.clicked.connect(lambda: show_window(self, startWin))
@@ -36,10 +36,10 @@ class Analyze(QMainWindow):
     def init_UI(self):
         try:
             # LOAD IMAGE
-            self.setWindowIcon(QIcon(QPixmap('images/icon.jpg')))
+            self.setWindowIcon(QIcon(QPixmap('images_for_GUI/icon.jpg')))
 
             # Загрузка GUI
-            uic.loadUi('Analyze.ui', self)
+            uic.loadUi('GUI/Analyze.ui', self)
             self.textError.hide()
             self.textSuccess.hide()
 
@@ -60,10 +60,10 @@ class AddPerson(QMainWindow):
 
     def init_UI(self):
         # LOAD IMAGE
-        self.setWindowIcon(QIcon(QPixmap('images/icon.jpg')))
+        self.setWindowIcon(QIcon(QPixmap('images_for_GUI/icon.jpg')))
 
         # Загрузка GUI
-        uic.loadUi('AddPerson.ui', self)
+        uic.loadUi('GUI/AddPerson.ui', self)
         self.textError.hide()
         self.textSuccess.hide()
 
@@ -92,11 +92,11 @@ class AddPerson(QMainWindow):
 
 # LOAD IMAGE
 def set_background(self):
-    self.setWindowIcon(QIcon(QPixmap('images/icon.jpg')))
+    self.setWindowIcon(QIcon(QPixmap('images_for_GUI/icon.jpg')))
 
     self.bg = QLabel(self)
     self.bg.resize(700, 370)
-    self.bg.setPixmap(QPixmap("images/background.jpg").scaled(700, 370))
+    self.bg.setPixmap(QPixmap("images_for_GUI/background.jpg").scaled(700, 370))
 
 
 def show_window(old, new):
