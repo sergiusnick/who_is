@@ -116,7 +116,7 @@ border: 2px solid #26003d;
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>10</y>
+      <y>20</y>
       <width>131</width>
       <height>91</height>
      </rect>
@@ -137,7 +137,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>110</y>
+      <y>130</y>
       <width>131</width>
       <height>31</height>
      </rect>
@@ -159,7 +159,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>110</y>
+      <y>130</y>
       <width>131</width>
       <height>31</height>
      </rect>

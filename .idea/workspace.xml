@@ -2,18 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f76b6323-cb20-4d7f-b401-3042bbd92177" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_versions/fotoVerification/from_yandex.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_files/NewAlgoritm.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_files/face_dataset.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_files/find_face_eye.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_files/fr_utils.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_files/inception_blocks_v2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_files/test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_files/test_input.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_files/test_train.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/whois.iml" afterPath="$PROJECT_DIR$/.idea/whois.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_versions/fotoVerification/test.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/whois.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/[Rashid,_Tarik]_Sozdaem_neironnuyu_set(z-lib.org).pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/haarcascade_frontalface_default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/skuli.jpg" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images_for_GUI/background.jpg" afterPath="$PROJECT_DIR$/GUI/images_for_GUI/background.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images_for_GUI/icon.jpg" afterPath="$PROJECT_DIR$/GUI/images_for_GUI/icon.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images_for_GUI/img.png" afterPath="$PROJECT_DIR$/GUI/images_for_GUI/img.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images_for_GUI/logo.png" afterPath="$PROJECT_DIR$/GUI/images_for_GUI/logo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GUI/AddPerson.ui" afterPath="$PROJECT_DIR$/GUI/AddPerson.ui" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GUI/Analyze.ui" afterPath="$PROJECT_DIR$/GUI/Analyze.ui" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GUI/MainMenu.ui" afterPath="$PROJECT_DIR$/GUI/MainMenu.ui" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Main.py" afterPath="$PROJECT_DIR$/Main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_versions/fotoVerification/from_yandex.py" afterPath="$PROJECT_DIR$/test_versions/fotoVerification/from_yandex.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,11 +30,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="from_yandex.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9">
+              <caret line="92" column="33" lean-forward="true" selection-start-line="92" selection-start-column="33" selection-end-line="92" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/script.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="from_yandex.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_versions/fotoVerification/from_yandex.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="-93">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -48,6 +78,10 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>images</find>
+      <find>images_for_GUI</find>
+      <find>textFi</find>
+      <find>text</find>
+      <find>set_background</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -60,12 +94,15 @@
         <option value="$USER_HOME$/Desktop/yellow.py" />
         <option value="$USER_HOME$/Desktop/facenet-face-recognition-master/facenet.py" />
         <option value="$PROJECT_DIR$/fr_utils.py" />
-        <option value="$PROJECT_DIR$/Main.py" />
         <option value="$PROJECT_DIR$/NewAlgoritm.py" />
         <option value="$PROJECT_DIR$/inception_blocks_v2.py" />
         <option value="$USER_HOME$/Desktop/solve/pg/gameover.py" />
         <option value="$PROJECT_DIR$/test_versions/from_yandex.py" />
         <option value="$PROJECT_DIR$/test_versions/fotoVerification/from_yandex.py" />
+        <option value="$PROJECT_DIR$/test_versions/fotoVerification/test.py" />
+        <option value="$PROJECT_DIR$/script.py" />
+        <option value="$PROJECT_DIR$/test_versions/testik.py" />
+        <option value="$PROJECT_DIR$/Main.py" />
       </list>
     </option>
   </component>
@@ -90,8 +127,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -104,27 +139,23 @@
               <item name="whois" type="462c0819:PsiDirectoryNode" />
               <item name="test_versions" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="whois" type="b2602c69:ProjectViewProjectNode" />
-              <item name="whois" type="462c0819:PsiDirectoryNode" />
-              <item name="test_versions" type="462c0819:PsiDirectoryNode" />
-              <item name="fotoVerification" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="C:/ProgramData/Anaconda3/envs/env_dlib/python.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\CicadaInc\whois\GUI" />
       <recent name="C:\CicadaInc\whois\test_versions\fotoVerification" />
       <recent name="C:\CicadaInc\whois\test_files" />
-      <recent name="C:\CicadaInc\whois\GUI" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -139,8 +170,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.from_yandex">
-    <configuration name="NewAlgoritm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Main">
+    <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -152,41 +183,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="whois" />
-      <option name="SCRIPT_NAME" value="C:\CicadaInc\whois\test_files\NewAlgoritm.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="eng" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="C:/Dima/eng" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="whois" />
-      <option name="SCRIPT_NAME" value="C:/Dima/eng/eng.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="facenet" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/facenet-face-recognition-master" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="whois" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/facenet-face-recognition-master/facenet.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -208,37 +205,71 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="gameover" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="mouse" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/solve/pg" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/solve" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="whois" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/solve/pg/gameover.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/solve/mouse.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_versions/fotoVerification" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="whois" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_versions/fotoVerification/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="testik" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_versions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="whois" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_versions/testik.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.NewAlgoritm" />
-      <item index="1" class="java.lang.String" itemvalue="Python.facenet" />
-      <item index="2" class="java.lang.String" itemvalue="Python.eng" />
-      <item index="3" class="java.lang.String" itemvalue="Python.gameover" />
-      <item index="4" class="java.lang.String" itemvalue="Python.from_yandex" />
+      <item index="0" class="java.lang.String" itemvalue="Python.from_yandex" />
+      <item index="1" class="java.lang.String" itemvalue="Python.mouse" />
+      <item index="2" class="java.lang.String" itemvalue="Python.test" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Main" />
+      <item index="4" class="java.lang.String" itemvalue="Python.testik" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.from_yandex" />
-        <item index="1" class="java.lang.String" itemvalue="Python.gameover" />
-        <item index="2" class="java.lang.String" itemvalue="Python.NewAlgoritm" />
-        <item index="3" class="java.lang.String" itemvalue="Python.eng" />
-        <item index="4" class="java.lang.String" itemvalue="Python.facenet" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Main" />
+        <item index="1" class="java.lang.String" itemvalue="Python.testik" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test" />
+        <item index="3" class="java.lang.String" itemvalue="Python.from_yandex" />
+        <item index="4" class="java.lang.String" itemvalue="Python.mouse" />
       </list>
     </recent_temporary>
   </component>
@@ -259,7 +290,7 @@
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15300146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -283,7 +314,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -394,13 +427,7 @@
     <entry file="file://$PROJECT_DIR$/face_dataset.py" />
     <entry file="file://$PROJECT_DIR$/test_input.py" />
     <entry file="file://$PROJECT_DIR$/test_train.py" />
-    <entry file="file://$USER_HOME$/Desktop/facenet-face-recognition-master/facenet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1708">
-          <caret line="153" column="18" lean-forward="false" selection-start-line="153" selection-start-column="18" selection-end-line="153" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/facenet-face-recognition-master/facenet.py" />
     <entry file="file://$PROJECT_DIR$/test_files/fr_utils.py" />
     <entry file="file://$PROJECT_DIR$/haarcascade_frontalface_default.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -419,20 +446,58 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_files/NewAlgoritm.py" />
-    <entry file="file://$PROJECT_DIR$/Main.py">
+    <entry file="file://$USER_HOME$/Desktop/solve/pg/gameover.py" />
+    <entry file="file://$USER_HOME$/Desktop/solve/mouse.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="38" lean-forward="false" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
+        <state relative-caret-position="408">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/solve/pg/gameover.py" />
+    <entry file="file://$PROJECT_DIR$/test_versions/fotoVerification/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test_versions/fotoVerification/from_yandex.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="-93">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_versions/testik.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9">
+          <caret line="92" column="33" lean-forward="true" selection-start-line="92" selection-start-column="33" selection-end-line="92" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>

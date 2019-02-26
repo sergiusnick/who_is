@@ -1,7 +1,9 @@
 from PyQt5.QtGui import QPixmap, QIcon
 from PyQt5.QtWidgets import (QMainWindow, QLabel, QApplication, QFileDialog)
 from PyQt5 import uic
+import shutil
 import sys
+import os
 
 
 # Main menu
@@ -36,7 +38,7 @@ class Analyze(QMainWindow):
     def init_UI(self):
         try:
             # LOAD IMAGE
-            self.setWindowIcon(QIcon(QPixmap('images_for_GUI/icon.jpg')))
+            self.setWindowIcon(QIcon(QPixmap('GUI/images_for_GUI/icon.jpg')))
 
             # Загрузка GUI
             uic.loadUi('GUI/Analyze.ui', self)
@@ -59,8 +61,11 @@ class AddPerson(QMainWindow):
         self.init_UI()
 
     def init_UI(self):
+        self.directory = os.getcwd()
+        self.filename = None
+
         # LOAD IMAGE
-        self.setWindowIcon(QIcon(QPixmap('images_for_GUI/icon.jpg')))
+        self.setWindowIcon(QIcon(QPixmap('GUI/images_for_GUI/icon.jpg')))
 
         # Загрузка GUI
         uic.loadUi('GUI/AddPerson.ui', self)
@@ -69,34 +74,41 @@ class AddPerson(QMainWindow):
 
         self.pushBack.clicked.connect(lambda: show_window(self, mainWin))
         self.pushView.clicked.connect(self.choosePhotos)
+        self.pushAdd.clicked.connect(self.addPerson)
 
         self.show()
 
     def choosePhotos(self):
         try:
-            self.filenames = QFileDialog.getOpenFileNames(self, 'Open file', '/home')
-            text = ''
-            for i in range(len(self.filenames[0]) - 1):
-                text += self.filenames[0][i] + '; '
+            self.filename = QFileDialog.getOpenFileName(self, 'Open file', '/home')
+            text = self.filename[0]
+            # for i in range(len(self.filename[0]) - 1):
+            #     text += self.filename[0][i] + '; '
             self.textFiles.setText(text)
-            print(self.filenames[0])
+            print(self.filename[0])
             self.textError.hide()
 
         except Exception:
             self.textError.setText('Error')
             self.textError.show()
 
-    def setDataset(self):
-        pass
+    def addPerson(self):
+        shutil.copy2(self.filename[0], self.directory + '/faces')
+        print(self.filename[0])
+        name = self.textName.toPlainText()
+        print(self.directory + '/faces/' + name + '.' + self.filename[0].split('.')[-1])
+        os.rename(self.filename[0],
+                  self.directory + '/faces/' + name + '.' + self.filename[0].split('.')[-1])
+        shutil.copy2(self.directory + '/faces/' + self.filename[0].split('/')[-1], self.filename[0])
 
 
 # LOAD IMAGE
 def set_background(self):
-    self.setWindowIcon(QIcon(QPixmap('images_for_GUI/icon.jpg')))
+    self.setWindowIcon(QIcon(QPixmap('GUI/images_for_GUI/icon.jpg')))
 
     self.bg = QLabel(self)
     self.bg.resize(700, 370)
-    self.bg.setPixmap(QPixmap("images_for_GUI/background.jpg").scaled(700, 370))
+    self.bg.setPixmap(QPixmap("GUI/images_for_GUI/background.jpg").scaled(700, 370))
 
 
 def show_window(old, new):
