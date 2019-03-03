@@ -29,6 +29,7 @@ class Verification:
             print('File not found', pathToImg)
 
     def findDescriptor(self, img):
+        self.added = False
         print(img)
         img = io.imread(img)
         dets = self.detector(img, 1)
@@ -37,17 +38,29 @@ class Verification:
             print("Detection {}: Left: {} Top: {} Right: {} Bottom: {}".format(
                 k, d.left(), d.top(), d.right(), d.bottom()))
             shape = self.sp(img, d)
-        return self.facerec.compute_face_descriptor(img, shape)
+            descriptor = self.facerec.compute_face_descriptor(img, shape)
+
+            try:
+                if distance.euclidean(self.mainImgDescriptor, descriptor) <= 0.6:
+                    self.need.append(self.paths[self.count])
+                    self.added = True
+                print(distance.euclidean(self.mainImgDescriptor, descriptor))
+                return descriptor
+
+            except AttributeError:
+                return descriptor
+
+            except Exception as error:
+                print(str(error))
 
     def search(self):
-        need = []
-        mainImgDescriptor = self.findDescriptor(self.img)
-        # print(mainImgDescriptor)
+        self.need = []
+        self.mainImgDescriptor = self.findDescriptor(self.img)
 
-        for img in self.paths:
-            faceDescriptor = self.findDescriptor(img)
-            if distance.euclidean(mainImgDescriptor, faceDescriptor) <= 0.6:
-                need.append(img)
-            print(distance.euclidean(mainImgDescriptor, faceDescriptor))
+        for self.count in range(len(self.paths)):
+            faceDescriptor = self.findDescriptor(self.paths[self.count])
+            if distance.euclidean(self.mainImgDescriptor, faceDescriptor) <= 0.6:
+                if self.added is False:
+                    self.need.append(self.paths[self.count])
 
-        return need
+        return self.need
