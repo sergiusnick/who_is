@@ -85,7 +85,7 @@ class AddPerson(QMainWindow):
             # for i in range(len(self.filename[0]) - 1):
             #     text += self.filename[0][i] + '; '
             self.textFiles.setText(text)
-            print(self.filename[0])
+            # print(self.filename[0])
             self.textError.hide()
 
         except Exception:
@@ -93,13 +93,14 @@ class AddPerson(QMainWindow):
             self.textError.show()
 
     def addPerson(self):
-        shutil.copy2(self.filename[0], self.directory + '/faces')
-        print(self.filename[0])
-        name = self.textName.toPlainText()
-        print(self.directory + '/faces/' + name + '.' + self.filename[0].split('.')[-1])
-        os.rename(self.filename[0],
-                  self.directory + '/faces/' + name + '.' + self.filename[0].split('.')[-1])
-        shutil.copy2(self.directory + '/faces/' + self.filename[0].split('/')[-1], self.filename[0])
+        try:
+            shutil.copy2(self.filename[0],
+                         self.directory + '/faces/' + self.textName.toPlainText() + '.' +
+                         self.filename[0].split('.')[-1])
+        except Exception:
+            self.textError.show()
+        else:
+            self.textSuccess.show()
 
 
 # LOAD IMAGE

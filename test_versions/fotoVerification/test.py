@@ -9,7 +9,7 @@ detector = dlib.get_frontal_face_detector()
 
 start = time.monotonic()
 
-img = io.imread('group.jpg')
+img = io.imread('dima_passport.jpg')
 win1 = dlib.image_window()
 win1.clear_overlay()
 win1.set_image(img)

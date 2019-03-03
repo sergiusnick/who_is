@@ -10,6 +10,7 @@ detector = dlib.get_frontal_face_detector()
 start = time.monotonic()
 
 img = io.imread('dima_passport.jpg')
+print(img)
 win1 = dlib.image_window()
 win1.clear_overlay()
 win1.set_image(img)
@@ -28,7 +29,7 @@ face_descriptor1 = facerec.compute_face_descriptor(img, shape)
 
 # print(face_descriptor1)
 
-img = io.imread('dima_3.jpg')
+img = io.imread('dima_2.jpg')
 win2 = dlib.image_window()
 win2.clear_overlay()
 win2.set_image(img)
