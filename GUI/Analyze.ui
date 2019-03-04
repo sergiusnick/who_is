@@ -223,6 +223,66 @@ font: 75 10pt &quot;Levenim MT&quot;;</string>
      <string>Directory &gt;&gt;</string>
     </property>
    </widget>
+   <widget class="QLabel" name="labelSeePhotos">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>150</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 12pt &quot;Levenim MT&quot;;</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Click here to see photos&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>110</y>
+      <width>311</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 12pt &quot;Levenim MT&quot;;
+color: rgb(255, 0, 4);</string>
+    </property>
+    <property name="text">
+     <string>Please wait after clicking &quot;OK&quot;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushLink">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>180</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(38, 0, 61);
+font: 75 12pt &quot;Levenim MT&quot;;
+background-color: rgb(234, 245, 237);
+border-radius: 2px;
+border: 2px solid #26003d;
+box-shadow: 4px 4px 4px rgba(8, 8, 8, 0.5)}
+QPushButton:hover {background-color: rgba(200, 229, 225, 0.7); 
+border: 2px solid #26003d;
+</string>
+    </property>
+    <property name="text">
+     <string>Here will be a link</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">

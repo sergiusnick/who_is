@@ -4,6 +4,8 @@ from PyQt5 import uic
 import shutil
 import sys
 import os
+from log import Log
+from script import Verification
 
 
 # Main menu
@@ -46,10 +48,26 @@ class Analyze(QMainWindow):
             self.textSuccess.hide()
 
             self.pushBack.clicked.connect(lambda: show_window(self, mainWin))
+            self.pushOK.clicked.connect(self.search)
 
             self.show()
-        except Exception:
-            self.textError.setText('Error')
+        except Exception as error:
+            print(str(error))
+            Log.error(None, str(error))
+            self.textError.show()
+
+    def search(self):
+        try:
+            print('start find')
+            v = Verification(self.textEdit.toPlainText(), self.textName.toPlainText())
+            self.need = v.search()
+
+
+            self.textSuccess.show()
+
+        except Exception as error:
+            print(str(error))
+            Log.error(None, str(error))
             self.textError.show()
 
 
@@ -82,22 +100,24 @@ class AddPerson(QMainWindow):
         try:
             self.filename = QFileDialog.getOpenFileName(self, 'Open file', '/home')
             text = self.filename[0]
-            # for i in range(len(self.filename[0]) - 1):
-            #     text += self.filename[0][i] + '; '
             self.textFiles.setText(text)
-            # print(self.filename[0])
             self.textError.hide()
 
-        except Exception:
-            self.textError.setText('Error')
+        except Exception as error:
+            print(str(error))
+            Log.error(None, str(error))
             self.textError.show()
 
     def addPerson(self):
         try:
             shutil.copy2(self.filename[0],
-                         self.directory + '/faces/' + self.textName.toPlainText() + '.' +
+                         self.directory + '/static/faces/' + self.textName.toPlainText() + '.' +
                          self.filename[0].split('.')[-1])
-        except Exception:
+            Log.addPerson(None, self.textName.toPlainText())
+
+        except Exception as error:
+            print(str(error))
+            Log.error(None, str(error))
             self.textError.show()
         else:
             self.textSuccess.show()
