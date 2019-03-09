@@ -19,7 +19,7 @@ class Verification:
                 if img.endswith('.jpg') or img.endswith('.JPEG') or img.endswith('.png'):
                     pathsToFind.append(dirFind + '/' + img)
 
-            self.img = directory + '/static/faces/' + name + '.jpg'
+            self.img = directory + '/faces/' + name + '.jpg'
             # print(pathsToFind)
             # self.findImg = [self.openImg(path) for path in pathsToFind]
             self.paths = pathsToFind

@@ -1,1 +1,10 @@
 [2019-03-03 15:28:37.639092] added dima
+[2019-03-04 17:17:54.121259] name 'need' is not defined
+[2019-03-04 17:37:11.717470] [Errno 2] No such file or directory: 'C:\\CicadaInc\\whois/static/faces/dima.jpg'
+[2019-03-04 17:37:18.268844] unsupported operand type(s) for -: 'NoneType' and 'float'
+[2019-03-04 17:37:18.356849] unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+[2019-03-04 17:37:18.370850] object of type 'NoneType' has no len()
+[2019-03-04 17:38:59.852655] [Errno 2] No such file or directory: 'C:\\CicadaInc\\whois/static/faces/dima.jpg'
+[2019-03-04 17:39:06.567039] unsupported operand type(s) for -: 'NoneType' and 'float'
+[2019-03-04 17:39:06.579039] unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+[2019-03-04 17:39:06.590040] object of type 'NoneType' has no len()
