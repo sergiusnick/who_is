@@ -26,9 +26,4 @@ class Console:
                 text = '[' + str(datetime.now()) + '] ' + textC
                 file.write(text + '\n')
         except Exception:
-            try:
-                with open('logs.txt', 'a') as file:
-                    text = '[' + str(datetime.now()) + '] ' + "could not write to the console"
-                    file.write(text + '\n')
-            except Exception:
-                pass
+            pass

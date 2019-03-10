@@ -8,3 +8,19 @@
 [2019-03-04 17:39:06.567039] unsupported operand type(s) for -: 'NoneType' and 'float'
 [2019-03-04 17:39:06.579039] unsupported operand type(s) for -: 'NoneType' and 'NoneType'
 [2019-03-04 17:39:06.590040] object of type 'NoneType' has no len()
+[2019-03-10 09:50:36.559931] 'module' object has no attribute 'face_recognition_model_v1'
+[2019-03-10 09:50:36.600934] 'Verification' object has no attribute 'img'
+[2019-03-10 09:50:36.612934] object of type 'NoneType' has no len()
+[2019-03-10 10:32:26.310481] could not write to the console
+[2019-03-10 11:25:33.035751] could not write to the console
+[2019-03-10 11:28:09.340691] could not write to the console
+[2019-03-10 11:30:10.232606] could not write to the console
+[2019-03-10 11:31:57.057716] could not write to the console
+[2019-03-10 11:33:55.508491] could not write to the console
+[2019-03-10 11:38:27.516049] could not write to the console
+[2019-03-10 12:42:23.376524] could not write to the console
+[2019-03-10 12:43:43.088083] could not write to the console
+[2019-03-10 12:45:30.547230] could not write to the console
+[2019-03-10 14:43:15.550885] [WinError 3] Системе не удается найти указанный путь: 'C:\\CicadaInc\\whois/static/5'
+[2019-03-10 14:44:47.083120] [WinError 3] Системе не удается найти указанный путь: 'C:\\CicadaInc\\whois/static/5'
+[2019-03-10 14:46:09.607840] unsupported operand type(s) for -: 'str' and 'int'
