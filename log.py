@@ -18,6 +18,13 @@ class Log:
         except Exception:
             pass
 
+    def successfulAnalyse(self):
+        try:
+            with open('logs.txt', 'a') as file:
+                text = '[' + str(datetime.now()) + '] successful analysis'
+                file.write(text + '\n')
+        except Exception:
+            pass
 
 class Console:
     def write(self, textC):

@@ -2,19 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f76b6323-cb20-4d7f-b401-3042bbd92177" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/carousel.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/dima_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/dima_passport.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/dimas.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/group.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/haarcascade_frontalface_default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/1/dima_passport.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/1/dimas.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/2/dima_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/2/dima_passport.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/2/dimas.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/2/group.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/3/dima_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/3/dima_passport.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/3/dimas.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/3/group.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/4/dima_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/4/dima_passport.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/4/dimas.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/4/group.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/5/dima_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/5/dima_passport.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/5/dimas.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/5/group.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_versions/NewAlgoritm.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_versions/face_dataset.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_versions/find_face_eye.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_versions/fotoVerification/dima_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_versions/fotoVerification/dima_passport.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_versions/fotoVerification/dimas.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_versions/fotoVerification/dlib_face_recognition_resnet_model_v1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_versions/fotoVerification/from_yandex.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_versions/fotoVerification/group.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_versions/fotoVerification/group1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_versions/fotoVerification/sasha.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_versions/fotoVerification/shape_predictor_68_face_landmarks.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_versions/fotoVerification/test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_versions/fr_utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_versions/inception_blocks_v2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_versions/test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_versions/test_input.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_versions/test_train.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_versions/testik.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webView.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/whois.iml" afterPath="$PROJECT_DIR$/.idea/whois.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DOCUMENTATION.txt" afterPath="$PROJECT_DIR$/DOCUMENTATION.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GUI/AddPerson.ui" afterPath="$PROJECT_DIR$/GUI/AddPerson.ui" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GUI/Analyze.ui" afterPath="$PROJECT_DIR$/GUI/Analyze.ui" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GUI/MainMenu.ui" afterPath="$PROJECT_DIR$/GUI/MainMenu.ui" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Main.py" afterPath="$PROJECT_DIR$/Main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/console.txt" afterPath="$PROJECT_DIR$/console.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log.py" afterPath="$PROJECT_DIR$/log.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs.txt" afterPath="$PROJECT_DIR$/logs.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script.py" afterPath="$PROJECT_DIR$/script.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.py" afterPath="$PROJECT_DIR$/test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webView.py" afterPath="$PROJECT_DIR$/webView.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,13 +64,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="117" column="33" lean-forward="true" selection-start-line="117" selection-start-column="33" selection-end-line="117" selection-end-column="33" />
+            <state relative-caret-position="68">
+              <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="console.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/console.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding>
-                <element signature="e#0#28#0" expanded="true" />
+                <element signature="e#0#32#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -40,22 +89,12 @@
       <file leaf-file-name="script.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/script.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+            <state relative-caret-position="102">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="webView.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webView.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="39" column="35" lean-forward="false" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#53#0" expanded="true" />
+                <marker date="1552325804569" expanded="true" signature="187:196" ph="..." />
+                <marker date="1552325804569" expanded="true" signature="3965:4001" ph="..." />
               </folding>
             </state>
           </provider>
@@ -64,18 +103,8 @@
       <file leaf-file-name="log.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/log.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="36" column="59" lean-forward="false" selection-start-line="36" selection-start-column="59" selection-end-line="36" selection-end-column="59" />
+            <state relative-caret-position="323">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -92,20 +121,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>images</find>
-      <find>images_for_GUI</find>
-      <find>textFi</find>
-      <find>text</find>
-      <find>set_background</find>
-      <find>datetime</find>
-      <find>Err</find>
-      <find>pushOK</find>
-      <find>topla</find>
-      <find>labelSeePhotos</find>
-      <find>faces</find>
-      <find>sette</find>
-      <find>exce</find>
-      <find>log</find>
       <find>exception</find>
       <find>textedi</find>
       <find>static</find>
@@ -116,13 +131,30 @@
       <find>Console.write(str(error))</find>
       <find>Console.write(None, str(error))</find>
       <find>Console</find>
-      <find>print</find>
       <find>shutil</find>
       <find>Verifi</find>
       <find>could</find>
+      <find>self.img</find>
+      <find>paths</find>
+      <find>addPersonWin</find>
+      <find>self.pushBa</find>
+      <find>Whois</find>
+      <find>pushV</find>
+      <find>pushView</find>
+      <find>print(img</find>
+      <find>try:</find>
+      <find>minkowski</find>
+      <find>ends</find>
+      <find>endsw</find>
+      <find>print</find>
+      <find>C:\CicadaInc\whois_test\GUI\Main.py</find>
+      <find>win32</find>
+      <find>Syste</find>
+      <find>haar</find>
     </findStrings>
     <replaceStrings>
       <replace>Console.write(None, str(error))</replace>
+      <replace>WhoIs</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -145,10 +177,17 @@
         <option value="C:/Dima/VK/READY/VERSION_1.0_code/Beta_version.py" />
         <option value="$PROJECT_DIR$/errors.py" />
         <option value="$USER_HOME$/Desktop/test.py" />
-        <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/log.py" />
         <option value="$PROJECT_DIR$/webView.py" />
+        <option value="$PROJECT_DIR$/ya.py" />
+        <option value="$PROJECT_DIR$/log.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/startServer.py" />
+        <option value="C:/ProgramData/Anaconda3/envs/env_dlib/Lib/site-packages/PyInstaller/utils/hooks/qt.py" />
+        <option value="$PROJECT_DIR$/Analyze.py" />
+        <option value="$PROJECT_DIR$/AddPerson.py" />
+        <option value="$PROJECT_DIR$/About.py" />
         <option value="$PROJECT_DIR$/script.py" />
+        <option value="$PROJECT_DIR$/console.py" />
         <option value="$PROJECT_DIR$/Main.py" />
       </list>
     </option>
@@ -159,7 +198,9 @@
     <option name="width" value="683" />
     <option name="height" value="738" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -175,8 +216,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -184,26 +223,26 @@
               <item name="whois" type="b2602c69:ProjectViewProjectNode" />
               <item name="whois" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="whois" type="b2602c69:ProjectViewProjectNode" />
-              <item name="whois" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="whois" type="b2602c69:ProjectViewProjectNode" />
-              <item name="whois" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="1" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/solve" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])" module-name="whois" is-module-sdk="true">
+        <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])" />
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="whois" />
+      </console-settings>
+    </option>
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -226,6 +265,23 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.Main">
+    <configuration name="Main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="whois" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -239,6 +295,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="whois" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="console" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="whois" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/console.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -277,54 +350,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="whois" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="webView" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="whois" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/webView.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.test (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.webView" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Main" />
-      <item index="3" class="java.lang.String" itemvalue="Python.test" />
-      <item index="4" class="java.lang.String" itemvalue="Python.script" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Main" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Main (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.script" />
+      <item index="4" class="java.lang.String" itemvalue="Python.console" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.Main" />
-        <item index="1" class="java.lang.String" itemvalue="Python.webView" />
-        <item index="2" class="java.lang.String" itemvalue="Python.test (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Python.script" />
-        <item index="4" class="java.lang.String" itemvalue="Python.test" />
+        <item index="1" class="java.lang.String" itemvalue="Python.console" />
+        <item index="2" class="java.lang.String" itemvalue="Python.script" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Main (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -345,17 +384,17 @@
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14787701" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16910689" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28527132" sideWeight="0.1068814" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28527132" sideWeight="0.8931186" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34108528" sideWeight="0.16105418" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34108528" sideWeight="0.8389458" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.48828697" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -370,32 +409,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py" />
-    <entry file="file://$PROJECT_DIR$/test_input.py" />
-    <entry file="file://$PROJECT_DIR$/test_train.py" />
-    <entry file="file://$PROJECT_DIR$/face_dataset.py" />
-    <entry file="file://$PROJECT_DIR$/test_files/fr_utils.py" />
-    <entry file="file://$PROJECT_DIR$/test_files/inception_blocks_v2.py" />
-    <entry file="file://$PROJECT_DIR$/test_files/NewAlgoritm.py" />
-    <entry file="file://$PROJECT_DIR$/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.py" />
     <entry file="file://$PROJECT_DIR$/test_input.py" />
     <entry file="file://$PROJECT_DIR$/face_dataset.py" />
@@ -440,13 +458,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_versions/testik.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test_versions/testik.py" />
     <entry file="file://$PROJECT_DIR$/../thequiz/Main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -461,22 +473,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_versions/fotoVerification/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_versions/fotoVerification/from_yandex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="48" column="45" lean-forward="true" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test_versions/fotoVerification/test.py" />
+    <entry file="file://$PROJECT_DIR$/test_versions/fotoVerification/from_yandex.py" />
     <entry file="file://C:/ProgramData/Anaconda3/envs/env_dlib/Lib/site-packages/PIL/Image.py" />
-    <entry file="file://C:/ProgramData/Anaconda3/envs/env_dlib/Lib/site-packages/scipy/spatial/distance.py" />
     <entry file="file://C:/Dima/python/project/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -499,48 +498,57 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/test.py" />
-    <entry file="file://$PROJECT_DIR$/test.py">
+    <entry file="file://C:/ProgramData/Anaconda3/envs/env_dlib/Lib/site-packages/scipy/spatial/distance.py" />
+    <entry file="file://$PROJECT_DIR$/ya.py" />
+    <entry file="file://$PROJECT_DIR$/test.py" />
+    <entry file="file://$PROJECT_DIR$/webView.py" />
+    <entry file="file://$PROJECT_DIR$/startServer.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/envs/env_dlib/Lib/site-packages/PyInstaller/utils/hooks/qt.py" />
+    <entry file="file://$PROJECT_DIR$/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="36" column="59" lean-forward="false" selection-start-line="36" selection-start-column="59" selection-end-line="36" selection-end-column="59" />
-          <folding />
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Analyze.py" />
+    <entry file="file://$PROJECT_DIR$/GUI/MainMenu.py" />
+    <entry file="file://$PROJECT_DIR$/About.py" />
+    <entry file="file://$PROJECT_DIR$/AddPerson.py" />
     <entry file="file://$PROJECT_DIR$/log.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="323">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webView.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="39" column="35" lean-forward="false" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#53#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/script.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
+            <marker date="1552325804569" expanded="true" signature="187:196" ph="..." />
+            <marker date="1552325804569" expanded="true" signature="3965:4001" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="117" column="33" lean-forward="true" selection-start-line="117" selection-start-column="33" selection-end-line="117" selection-end-column="33" />
+        <state relative-caret-position="68">
+          <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>

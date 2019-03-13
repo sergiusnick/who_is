@@ -24,3 +24,45 @@
 [2019-03-10 14:43:15.550885] [WinError 3] Системе не удается найти указанный путь: 'C:\\CicadaInc\\whois/static/5'
 [2019-03-10 14:44:47.083120] [WinError 3] Системе не удается найти указанный путь: 'C:\\CicadaInc\\whois/static/5'
 [2019-03-10 14:46:09.607840] unsupported operand type(s) for -: 'str' and 'int'
+[2019-03-10 19:59:01.305682] name 'name' is not defined
+[2019-03-10 19:59:13.209363] 'Verification' object has no attribute 'paths'
+[2019-03-10 19:59:13.244365] object of type 'NoneType' has no len()
+[2019-03-10 20:02:49.371726] name 'name' is not defined
+[2019-03-10 21:19:29.726237] added luba
+[2019-03-10 21:20:51.318904] unsupported operand type(s) for -: 'float' and 'NoneType'
+[2019-03-10 21:24:08.111831] unsupported operand type(s) for -: 'float' and 'NoneType'
+[2019-03-10 23:09:34.966914] successful analysis
+[2019-03-10 23:15:20.431674] successful analysis
+[2019-03-10 23:23:00.239973] successful analysis
+[2019-03-10 23:24:51.736351] [WinError 3] Системе не удается найти указанный путь: "os.startfile('startServer.py')"
+[2019-03-10 23:24:51.748351] 'Verification' object has no attribute 'imgs'
+[2019-03-10 23:24:51.779353] object of type 'NoneType' has no len()
+[2019-03-10 23:28:03.741509] successful analysis
+[2019-03-10 23:34:35.847668] successful analysis
+[2019-03-10 23:38:28.148955] successful analysis
+[2019-03-11 00:19:03.160027] successful analysis
+[2019-03-11 00:28:07.084137] successful analysis
+[2019-03-11 22:27:56.778452] 'module' object has no attribute 'face_recognition_model_v1'
+[2019-03-11 22:27:56.809453] 'Verification' object has no attribute 'imgs'
+[2019-03-11 22:27:56.882458] object of type 'NoneType' has no len()
+[2019-03-11 22:37:19.134617] 'module' object has no attribute 'face_recognition_model_v1'
+[2019-03-13 16:14:56.729484] added mark
+[2019-03-13 16:15:53.965985] successful analysis
+[2019-03-13 16:33:56.777701] successful analysis
+[2019-03-13 16:36:41.732390] successful analysis
+[2019-03-13 16:41:13.583694] successful analysis
+[2019-03-13 16:47:04.584311] successful analysis
+[2019-03-13 19:04:03.737163] successful analysis
+[2019-03-13 19:06:04.528175] successful analysis
+[2019-03-13 19:20:55.515067] successful analysis
+[2019-03-13 19:22:42.210402] successful analysis
+[2019-03-13 19:24:36.116694] successful analysis
+[2019-03-13 20:06:32.796917] added Dima
+[2019-03-13 20:06:57.784347] added Mark
+[2019-03-13 20:10:44.857335] successful analysis
+[2019-03-13 20:15:48.393696] added Elon
+[2019-03-13 20:18:19.554342] successful analysis
+[2019-03-13 20:21:10.265106] added Elon
+[2019-03-13 20:24:59.078193] successful analysis
+[2019-03-13 20:30:31.140186] successful analysis
+[2019-03-13 20:34:09.751690] successful analysis

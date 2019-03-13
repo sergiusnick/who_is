@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Whois</string>
+   <string>WhoIs</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QPushButton" name="pushStart">
@@ -38,7 +38,7 @@ border: 2px solid #26003d;
 </string>
     </property>
     <property name="text">
-     <string>Analyze</string>
+     <string>Recognition</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushAddPerson">
@@ -92,7 +92,7 @@ border: 2px solid #26003d;
 </string>
     </property>
     <property name="text">
-     <string>About the program</string>
+     <string>About</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushExit">

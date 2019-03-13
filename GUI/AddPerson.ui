@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Whois</string>
+   <string>WhoIs</string>
   </property>
   <property name="styleSheet">
    <string notr="true">background-color: rgb(220, 237, 231);</string>
@@ -169,33 +169,6 @@ font: 75 10pt &quot;Levenim MT&quot;;</string>
 font: 75 10pt &quot;Levenim MT&quot;;</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushView">
-    <property name="geometry">
-     <rect>
-      <x>610</x>
-      <y>20</y>
-      <width>81</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="cursor">
-     <cursorShape>PointingHandCursor</cursorShape>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(38, 0, 61);
-font: 75 12pt &quot;Levenim MT&quot;;
-background-color: rgb(234, 245, 237);
-border-radius: 2px;
-border: 2px solid #26003d;
-box-shadow: 4px 4px 4px rgba(8, 8, 8, 0.5)}
-QPushButton:hover {background-color: rgba(200, 229, 225, 0.7); 
-border: 2px solid #26003d;
-</string>
-    </property>
-    <property name="text">
-     <string>View</string>
-    </property>
-   </widget>
    <widget class="QPushButton" name="pushAdd">
     <property name="geometry">
      <rect>
@@ -221,6 +194,33 @@ border: 2px solid #26003d;
     </property>
     <property name="text">
      <string>Add</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushView">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>20</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(38, 0, 61);
+font: 75 12pt &quot;Levenim MT&quot;;
+background-color: rgb(234, 245, 237);
+border-radius: 2px;
+border: 2px solid #26003d;
+box-shadow: 4px 4px 4px rgba(8, 8, 8, 0.5)}
+QPushButton:hover {background-color: rgba(200, 229, 225, 0.7); 
+border: 2px solid #26003d;
+</string>
+    </property>
+    <property name="text">
+     <string>View</string>
     </property>
    </widget>
   </widget>
