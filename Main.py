@@ -60,27 +60,27 @@ class Analyze(QMainWindow):
             self.textError.show()
 
     def search(self):
-        # try:
-        self.textError.hide()
-        self.textSuccess.hide()
+        try:
+            self.textError.hide()
+            self.textSuccess.hide()
 
-        print('start finding')
-        Console.write(None, 'start finding')
-        v = Verification(self.textEdit.toPlainText(), self.textName.toPlainText().split(';'))
-        self.need = v.search()
-        self.pushLink.setText('http://127.0.0.1:8080/')
+            print('start finding')
+            Console.write(None, 'start finding')
+            v = Verification(self.textEdit.toPlainText(), self.textName.toPlainText().split(';'))
+            self.need = v.search()
+            self.pushLink.setText('http://127.0.0.1:8080/')
 
-        for i in range(len(self.need)):
-            self.need[i] = self.need[i].replace('\\', '/')
+            for i in range(len(self.need)):
+                self.need[i] = self.need[i].replace('\\', '/')
 
-        Log.successfulAnalyse(None)
-        self.textSuccess.show()
-        self.pushLink.clicked.connect(self.openBrowser)
+            Log.successfulAnalyse(None)
+            self.textSuccess.show()
+            self.pushLink.clicked.connect(self.openBrowser)
 
-        # except Exception as error:
-        #     print(str(error))
-        #     Log.error(None, str(error))
-        #     self.textError.show()
+        except Exception as error:
+            print(str(error))
+            Log.error(None, str(error))
+            self.textError.show()
 
     def openBrowser(self):
         try:
