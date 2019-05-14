@@ -33,8 +33,8 @@ class Verification:
             self.paths = pathsToFind
 
         except Exception as    error:
-    print(str(error))
-    Log.error(None, str(error))
+            print(str(error))
+            Log.error(None, str(error))
 
     def openImg(self, pathToImg):
         try:

@@ -1,0 +1,5 @@
+PyQt5==5.12.2
+dlib
+scikit-image==0.15.0
+scipy
+flask==1.0.2

@@ -76,8 +76,10 @@ class Analyze(QMainWindow):
             Log.successfulAnalyse(None)
             self.textSuccess.show()
             self.pushLink.clicked.connect(self.openBrowser)
+            print('finding complete')
 
         except Exception as error:
+            print('finding error')
             print(str(error))
             Log.error(None, str(error))
             self.textError.show()
